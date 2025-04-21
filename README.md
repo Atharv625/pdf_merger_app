@@ -30,6 +30,6 @@ To run this project locally, follow these steps:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/pdf-merger-app.git
+git clone https://github.com/Atharv625/pdf_merger_app
 cd pdf-merger-app
 ```
