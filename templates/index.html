@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Merge PDFs</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Upload PDFs to Merge</h2>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="pdfs" accept="application/pdf" multiple required><br><br>
+            <button type="submit">Merge PDFs</button>
+        </form>
+    </div>
+</body>
+
+</html>
