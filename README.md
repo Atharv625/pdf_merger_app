@@ -2,6 +2,10 @@
 
 A simple Flask-based web application that allows users to upload multiple PDF files and merge them into a single PDF document. The application is built with Python and Flask and provides a user-friendly interface to handle file uploads and PDF merging.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Features
 
 - Upload multiple PDF files.
